@@ -1,0 +1,1008 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.business-nav-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    border-bottom: 1px solid lightgray;
+}
+.business-nav-container a{
+    width: 16.5%;
+    padding: 10px;
+}
+.business-nav-container .business-nav{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 30px;
+}
+.business-nav-container .business-nav .business-nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+.business-nav-container .business-nav p{
+    font-size: 13px;
+    color: gray;
+    cursor: pointer;
+}
+.business-nav-container .business-nav p:hover{
+    text-decoration: underline;
+    color: #2B65EC;
+}
+.business-nav-container .business-nav .business-nav-team{
+    margin: 0px 20px;
+}
+.business-nav-container .business-nav p:last-child{
+    margin: 0px 20px;
+}
+.business-nav-container .business-nav .business-nav-menu .nav-angle-container{
+    font-size: 10px;
+    color: lightgray;
+    margin-left: 8px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.business-nav .business-nav-menu .nav-angle-container .coursera-up{
+    display: none;
+    color: #2B65EC;
+}
+.business-nav .business-nav-menu .nav-angle-container .solution-up{
+    display: none;
+    color: #2B65EC;
+}
+.business-nav .business-nav-menu .nav-angle-container .resource-up{
+    display: none;
+    color: #2B65EC;
+}
+.business-nav .business-nav-menu .nav-angle-container .coursera-down{
+    position: absolute;
+}
+.business-nav .business-nav-menu .nav-angle-container .solution-down{
+    position: absolute;
+}
+.business-nav .business-nav-menu .nav-angle-container .resource-down{
+    position: absolute;
+}
+.business-nav-container .business-nav-btn{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 10px; */
+}
+.business-nav-container .business-nav-btn p{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #2B65EC;
+    color: #fff;
+    cursor: pointer;
+}
+.business-nav-container .business-nav-close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.business-nav-container .business-nav-bar{
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+}
+.business-nav-container .business-nav-xmark{
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.business-sidebar{
+    width: 100%;
+    height: 700px;
+    padding: 0px 40px;
+    position: fixed;
+    left: -100%;
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    transition: all 0.3s ease-in;
+    /* border: 1px solid orangered; */
+}
+.business-sidebar .business-sidebar1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    color: gray;
+}
+.business-sidebar .sidebar-angle-right1{
+    cursor: pointer;
+}
+.business-sidebar .sidebar-angle-right2{
+    cursor: pointer;
+}
+.business-sidebar .sidebar-angle-right3{
+    cursor: pointer;
+}
+.business-sidebar .business-sidebar1 p{
+    cursor: pointer;
+}
+.business-sidebar .business-sidebar1 p:hover{
+    text-decoration: underline;
+}
+.business-sidebar .nav-sidebar-teams{
+    margin: 20px 0px;
+    color: gray;
+    cursor: pointer;
+}
+.business-sidebar .nav-sidebar-teams:hover{
+    text-decoration: underline;
+}
+.business-sidebar .nav-sidebar-plans{
+    margin: 20px 0px;
+    color: gray;
+    cursor: pointer;
+}
+.business-sidebar .nav-sidebar-plans:hover{
+    text-decoration: underline;
+}
+.business-sidebar .business-sidebar-btn{
+    width: 100%;
+    margin: 50px 0px;
+}
+.business-sidebar .business-sidebar-btn p{
+    padding: 10px 20px;
+    display: inline;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #2B65EC;
+}
+
+
+
+
+/* ############ */
+/* Hero Section */
+/* ############ */
+.main-business-hero-section{
+    width: 100%;
+    /* z-index: -2; */
+    background-color: #f5f5f5;
+}
+.main-business-hero-section .business-hero-section{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+.business-hero-section .business-hero1{
+    width: 50%;
+}
+.business-hero-section .business-hero1 p:first-child{
+    font-size: 3.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.business-hero-section .business-hero1 .hero-para{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.business-hero1 .hero-para .business-hero-para1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0px;
+}
+.business-hero1 .hero-para .business-hero-para1 .hero-check{
+    color: #2B65EC;
+    margin-right: 10px;
+}
+.business-hero1 .hero-para .business-hero-para1 p{
+    font-size: 14px;
+    color: gray;
+    letter-spacing: 0.5px;
+}
+.business-hero1 .hero-btn{
+    width: 100%;
+    padding: 0px !important;
+    margin: 40px 0px;
+}
+.business-hero1 .hero-btn p{
+    display: inline;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #2B65EC;
+    padding: 10px 20px !important;
+    font-size: 1rem !important;
+}
+.business-hero1 p:last-child{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.business-hero1 p:last-child span{
+    color: #2B65EC;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.business-hero-section .business-hero2{
+    width: 50%;
+    /* z-index: 0; */
+}
+.business-hero-section .business-hero2 img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    z-index: -2;
+}
+.main-business-hero-section .business-hero3{
+    width: 85%;
+    z-index: 5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: #191919;
+    border: 1px solid black;
+    margin: -30px auto 50px;
+}
+.business-hero3 .business-hero-para2{
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.business-hero3 .business-hero-para2 p:first-child{
+    font-size: 2rem;
+    margin: 0px 20px;
+}
+.business-hero3 .business-hero-para2 p:last-child{
+    font-size: 13px;
+}
+.business-hero3 .hero-border1{
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.business-hero3 .hero-border3{
+    border: 1px solid gray;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+
+
+/* ########################## */
+/* Business Companies Section */
+/* ########################## */
+.main-business-companies-container{
+    width: 100%;
+    padding: 50px;
+}
+.main-business-companies-container .business-companies-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.business-companies-section .business-companies-section1{
+    width: 50%;
+}
+.business-companies-section .business-companies-section1 p{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 50px;
+}
+.business-companies-section .business-companies-section1 .business-companies-img{
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.business-companies-section1 .business-companies-img .companies-img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 35px;
+    border: 1px solid lightgray;
+}
+.business-companies-section1 .business-companies-img .companies-border1{
+    border-top: none;
+    border-left: none;
+}
+.business-companies-section1 .business-companies-img .companies-border2{
+    border-top: none;
+    border-left: none;
+}
+.business-companies-section1 .business-companies-img .companies-border3{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.business-companies-section1 .business-companies-img .companies-border4{
+    border-top: none;
+    border-left: none;
+}
+.business-companies-section1 .business-companies-img .companies-border5{
+    border-top: none;
+    border-left: none;
+}
+.business-companies-section1 .business-companies-img .companies-border6{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.business-companies-section1 .business-companies-img .companies-border7{
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.business-companies-section1 .business-companies-img .companies-border8{
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.business-companies-section1 .business-companies-img .companies-border9{
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+
+/* ######################## */
+/* Business Upskill Section */
+/* ######################## */
+
+.retain-talent{
+    background-color: #fff !important;
+}
+.main-business-upskill-container{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+.main-business-upskill-container .business-upskill-container1{
+    width: 50%;
+    padding: 50px;
+}
+.main-business-upskill-container .business-upskill-container1 .upskill-para1{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 30px 0px;
+    text-transform: uppercase;
+}
+.business-upskill-container1 .upskill-para2{
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.business-upskill-container1 .upskill-para3{
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.business-upskill-container1 .upskill-check-container{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.business-upskill-container1 .upskill-check-container .business-upskill-content1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.business-upskill-container1 .upskill-check-container .business-upskill-content1 i{
+    margin: 0px 10px;
+    font-size: 13px;
+    color: #2B65EC;
+}
+.business-upskill-container1 .upskill-check-container .business-upskill-content1 p{
+    font-size: 14px;
+}
+.business-upskill-container1 .upskill-explore{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.business-upskill-container1 .upskill-explore p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #2B65EC;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.business-upskill-container1 .upskill-explore p:hover{
+    text-decoration: underline;
+}
+.business-upskill-container1 .upskill-explore i{
+    color: #2B65EC;
+}
+.business-upskill-container1 .upskill-para4{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+.business-upskill-container1 .upskill-pg-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px;
+}
+.business-upskill-container1 .upskill-pg-container .upskill-pg-img img{
+    width: 100px;
+}
+.business-upskill-container1 .upskill-pg-container .upskill-pg-name{
+    margin: 0px 30px;
+}
+.business-upskill-container1 .upskill-pg-container .upskill-pg-name p:first-child{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.business-upskill-container1 .upskill-pg-container .upskill-pg-name p:last-child{
+    font-size: 14px;
+}
+.main-business-upskill-container .business-upskill-container2{
+    width: 50%;
+    padding: 50px;
+}
+.main-business-upskill-container .business-upskill-container2 img{
+    width: 100%;
+}
+
+
+
+/* ########################### */
+/* World-class Content Section */
+/* ########################### */
+.main-world-class-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    flex-direction: row-reverse;
+}
+.world-class-container1{
+    width: 45%;
+}
+.main-world-class-container .world-class-container1 .upskill-para1{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 30px 0px;
+    text-transform: uppercase;
+}
+.main-world-class-container .world-class-container1 .upskill-para2{
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.main-world-class-container .world-class-container1 .upskill-para3{
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.world-class-container1 .upskill-check-container{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.world-class-container1 .upskill-check-container .business-upskill-content1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.world-class-container1 .upskill-check-container .business-upskill-content1 i{
+    margin: 0px 10px;
+    font-size: 13px;
+    color: #2B65EC;
+}
+.world-class-container1 .upskill-check-container .business-upskill-content1 p{
+    font-size: 14px;
+}
+.world-class-container1 .upskill-explore{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.world-class-container1 .upskill-explore p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #2B65EC;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.world-class-container1 .upskill-explore p:hover{
+    text-decoration: underline;
+}
+.world-class-container1 .upskill-explore i{
+    color: #2B65EC;
+}
+.world-class-container2{
+    width: 50%;
+    text-align: center;
+}
+.world-class-container2 img{
+    width: 70%;
+    border-radius: 10px;
+}
+
+
+/* World-class Catalog Section2 */
+.main-world-class-catalog{
+    width: 100%;
+    padding: 100px 0px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.main-world-class-catalog .catalog-para1{
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.main-world-class-catalog .world-class-catalog{
+    width: 50%;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: 1px solid darkcyan;
+}
+.main-world-class-catalog .world-class-catalog i{
+    width: 5%;
+    cursor: pointer;
+}
+.main-world-class-catalog .world-class-catalog input{
+    width: 94%;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+}
+.main-world-class-catalog .class-catalog{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+.main-world-class-catalog .class-catalog p{
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.main-world-class-catalog .class-catalog p:hover{
+    color: #2B65EC;
+    border: 1px solid #2B65EC;
+}
+.main-world-class-catalog .class-catalog .class-popular{
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+
+/* ################ */
+/* Academic Section */
+/* ################ */
+.main-business-academic-container{
+    width: 100%;
+    padding: 100px;
+    background-color: #0056d2;
+    color: #fff;
+}
+.main-business-academic-container .academic-para1{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.main-business-academic-container .academic-para2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.main-business-academic-container .academic-para3{
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 90px;
+}
+.main-business-academic-container .academic-container1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.main-business-academic-container .academic-container1 p{
+    font-size: 24px;
+    font-weight: 100;
+}
+.main-business-academic-container .academic-container1 .academic-arrow .academic-left{
+    cursor: pointer;
+    margin: 10px;
+}
+.main-business-academic-container .academic-container1 .academic-arrow .academic-right{
+    cursor: pointer;
+}
+.main-business-academic-container .academic-container2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+.academic-container2 .business-academic1{
+    width: 400px;
+    margin: 0px 30px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    object-fit: cover;
+    color: #191919;
+    background-color: #f5f5f5;
+    border: 1px solid lightblue;
+}
+.academic-container2 .business-academic1 img{
+    width: 265px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.academic-container2 .business-academic1 .academic-para{
+    width: 100%;
+    padding: 10px;
+}
+.academic-container2 .business-academic1 .academic-para .academic-para4{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.academic-container2 .business-academic1 .academic-para .academic-para5{
+    font-size: 13px;
+    font-weight: 100;
+    color: gray;
+    margin-bottom: 20px;
+}
+.business-academic1 .academic-para .academic-icon{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.business-academic1 .academic-para .academic-icon .academic-para6{
+    font-weight: 700;
+    margin-right: 5px;
+}
+.business-academic1 .academic-para .academic-icon i{
+    font-size: 12px;
+    color: gold;
+    margin-right: 10px;
+}
+.business-academic1 .academic-para .academic-learn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    color: #2B65EC;
+}
+.business-academic1 .academic-para .academic-learn p{
+    text-decoration: underline;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.business-academic1 .academic-para .academic-learn i{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ############# */
+/* Media Queries */
+/* ############# */
+
+@media (max-width:1100px){
+    .business-nav-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .business-nav-container .business-nav{
+        display: none;
+    }
+    .business-nav-container .business-nav-btn{
+        display: none;
+    }
+    .business-nav-container .business-nav-close{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .business-nav-container .business-nav-bar{
+        display: block;
+        cursor: pointer;
+    }
+    .business-nav-container .business-nav-xmark{
+        position: absolute;
+    }
+
+    /* ############ */
+    /* Hero Section */
+    /* ############ */
+
+
+    .main-business-hero-section{
+        width: 100%;
+    }
+    .main-business-hero-section .business-hero-section{
+        width: 100%;
+        display: grid;
+    }
+    .business-hero-section .business-hero1{
+        width: 100%;
+        padding: 30px;
+    }
+    .business-hero-section .business-hero2{
+        width: 100%;
+        padding: 30px;
+    }
+    .main-business-hero-section .business-hero3{
+        width: 95%;
+    }
+
+
+
+    /* Business Companies Section */
+    .main-business-companies-container{
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+}
+
+
+@media (max-width:900px){
+    
+    
+    /* Business Companies Section */
+    .main-business-companies-container{
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .main-business-companies-container .business-companies-section{
+        display: grid;
+    }
+    .business-companies-section .business-companies-section1{
+        width: 100%;
+    }
+
+
+
+    /* Business Upskill Section */
+    .main-business-upskill-container{
+        width: 100%;
+        display: grid;
+        padding: 0px;
+    }
+    .main-business-upskill-container .business-upskill-container1{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .main-business-upskill-container .business-upskill-container2{
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+
+    /* World class Catalog section */
+    .main-world-class-catalog{
+        width: 100%;
+    }
+    .main-world-class-catalog .world-class-catalog{
+        width: 90%;
+    }
+}
+
+
+@media (max-width:700px){
+    .main-business-hero-section{
+        width: 100%;
+    }
+    .main-business-hero-section .business-hero-section{
+        width: 100%;
+        display: grid;
+    }
+    .business-hero-section .business-hero1{
+        width: 100%;
+        padding: 30px;
+    }
+    .business-hero-section .business-hero1 p:first-child{
+        font-size: 2rem;
+    }
+    .business-hero-section .business-hero2{
+        width: 100%;
+        padding: 30px;
+    }
+    .business-hero-section .business-hero2 {
+        width: 100%;
+        object-fit: cover;
+    }
+    .main-business-hero-section .business-hero3{
+        width: 90%;
+        display: grid;
+    }
+    .main-business-hero-section .business-hero3 .business-hero-para2{
+        width: 100%;
+        text-align: center;
+    }
+    .main-business-hero-section .business-hero3 .hero-border1{
+        border-right: none;
+    }
+    .main-business-hero-section .business-hero3 .hero-border2{
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+    }
+    .main-business-hero-section .business-hero3 .hero-border3{
+        border-left: none;
+    }
+    .main-business-hero-section .business-hero3 .business-hero-para2 p:first-child{
+        margin: 0px 3px;
+    }
+
+
+    /* #################### */
+    /* World-class Section  */
+    /* #################### */
+
+    .main-world-class-container{
+        width: 100%;
+        display: grid;
+    }
+    .main-world-class-container .world-class-container1{
+        width: 100%;
+        padding: 30px;
+    }
+    .main-world-class-container .world-class-container2{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:500px){
+    
+    
+    /* Business Companies Section */
+    .main-business-companies-container{
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .main-business-companies-container .business-companies-section{
+        display: grid;
+    }
+    .business-companies-section .business-companies-section1{
+        width: 100%;
+    }
+    .business-companies-section .business-companies-section1 .business-companies-img{
+        width: 100%;
+    }
+    .business-companies-section1 .business-companies-img .companies-img1{
+        width: 100%;
+    }
+    .business-companies-section1 .business-companies-img .companies-img1 img{
+        width: 100%;
+    }
+
+
+    /* World class Catalog section */
+    .main-world-class-catalog{
+        width: 100%;
+    }
+    .main-world-class-catalog .world-class-catalog{
+        width: 100%;
+    }
+}
