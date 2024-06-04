@@ -176,6 +176,498 @@
 
 
 
+/* ############ */
+/* Hero Section */
+/* ############ */
+.main-business-hero-section{
+    width: 100%;
+    /* z-index: -2; */
+    background-color: #f5f5f5;
+}
+.main-business-hero-section .business-hero-section{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+.business-hero-section .business-hero1{
+    width: 50%;
+}
+.business-hero-section .business-hero1 p:first-child{
+    font-size: 3.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.business-hero-section .business-hero1 .university-hero-para{
+    font-size: 14px;
+    color: gray;
+    letter-spacing: 1px;
+}
+.business-hero-section .business-hero1 .hero-para{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.business-hero1 .hero-para .business-hero-para1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0px;
+}
+.business-hero1 .hero-para .business-hero-para1 .hero-check{
+    color: #2B65EC;
+    margin-right: 10px;
+}
+.business-hero1 .hero-para .business-hero-para1 p{
+    font-size: 14px;
+    color: gray;
+    letter-spacing: 0.5px;
+}
+.business-hero1 .hero-btn{
+    width: 100%;
+    padding: 0px !important;
+    margin: 40px 0px;
+}
+.business-hero1 .hero-btn p{
+    display: inline;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #2B65EC;
+    padding: 10px 20px !important;
+    font-size: 1rem !important;
+}
+.business-hero1 p:last-child{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.business-hero1 p:last-child span{
+    color: #2B65EC;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.business-hero-section .business-hero2{
+    width: 50%;
+    /* z-index: 0; */
+}
+.business-hero-section .business-hero2 img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    z-index: -2;
+}
+.main-business-hero-section .business-hero3{
+    width: 85%;
+    z-index: 5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: #191919;
+    border: 1px solid black;
+    margin: -30px auto 50px;
+}
+.business-hero3 .business-hero-para2{
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.business-hero3 .business-hero-para2 p:first-child{
+    font-size: 2rem;
+    margin: 0px 20px;
+}
+.business-hero3 .business-hero-para2 p:last-child{
+    font-size: 13px;
+}
+.business-hero3 .hero-border1{
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.business-hero3 .hero-border3{
+    border: 1px solid gray;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+
+/* ################## */
+/* Curriculum Section */
+/* ################## */
+.main-university-curriculum-container{
+    width: 100%;
+    padding: 100px 100px;
+    color: #fff;
+    background-color: #2B65EC;
+    display: flex;
+    justify-content: center;
+}
+.main-university-curriculum-container .university-curriculum1{
+    width: 50%;
+    margin-right: 30px;
+}
+.university-curriculum1 .curriculum-para1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.university-curriculum1 .curriculum-para2{
+    font-size: 20px;
+    font-weight: 100;
+}
+.main-university-curriculum-container .university-curriculum2{
+    width: 50%;
+    margin-left: 30px;
+}
+.university-curriculum2 .university-empower1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.university-curriculum2 .university-empower1 .empower1{
+    width: 50%;
+    padding: 10px;
+}
+.university-curriculum2 .university-empower1 .empower1 i{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+.university-curriculum2 .university-empower1 .empower1 .empower-para1{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.university-curriculum2 .university-empower1 .empower1 p:last-child{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* ################### */
+/* High Impact Section */
+/* ################### */
+.main-high-impact-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: #f5f5f5;
+}
+.main-high-impact-container .high-impact-container1{
+    width: 50%;
+}
+.high-impact-container1 .business-high-para1{
+    width: 100%;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.high-impact-container1 .business-high-para2{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.high-impact-container1 .business-high-impact{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.high-impact-container1 .business-high-impact .high-impact-check{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.high-impact-container1 .business-high-impact .high-impact-check i{
+    color: #2B65EC;
+}
+.high-impact-container1 .business-high-impact .high-impact-check p{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+    color: gray;
+}
+.high-impact-container1 .business-high-para3{
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.high-impact-container1 .business-high-companies{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.high-impact-container1 .business-high-companies .high-company1{
+    border: 1px solid lightgray;
+    object-fit: cover;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10px;
+}
+.high-impact-container1 .business-high-companies .high-border1{
+    border-top: none;
+    border-left: none;
+}
+.high-impact-container1 .business-high-companies .high-border2{
+    border-top: none;
+}
+.high-impact-container1 .business-high-companies .high-border3{
+    border-top: none;
+    border-right: none;
+}
+.high-impact-container1 .business-high-companies .high-border4{
+    border-left: none;
+    border-bottom: none;
+}
+.high-impact-container1 .business-high-companies .high-border5{
+    border-bottom: none;
+}
+.high-impact-container1 .business-high-companies .high-border6{
+    border-bottom: none;
+    border-right: none;
+}
+.high-impact-container1 .business-high-para4{
+    width: 80%;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+.high-impact-container1 .impact-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.high-impact-container1 .impact-container img{
+    margin-right: 20px;
+}
+.high-impact-container1 .impact-container1 p{
+    margin-bottom: 10px;
+}
+.high-impact-container1 .impact-container1 p:first-child{
+    font-size: 18px;
+    font-weight: 700;
+}
+.high-impact-container1 .impact-container1 p:last-child{
+    font-size: 14px;
+    color: gray;
+    letter-spacing: 1px;
+}
+.main-high-impact-container .high-impact-container2{
+    width: 50%;
+}
+.high-impact-container2 .high-impact-form{
+    width: 90%;
+    margin: 0px auto;
+    padding: 30px;
+    border: 1px solid gray;
+    background-color: #fff;
+}
+.high-impact-container2 .high-impact-form .high-first-last{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 20px;
+}
+.high-impact-container2 .high-impact-form .high-first-last input{
+    width: 48%;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 7px;
+}
+.high-impact-container2 .high-impact-form .high-checkbox{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0px;
+}
+.high-impact-container2 .high-impact-form .high-checkbox input{
+    cursor: pointer;
+}
+.high-impact-container2 .high-impact-form .high-checkbox p{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.high-impact-container2 .high-impact-form .high-form-country{
+    width: 99%;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+.high-impact-container2 .high-impact-form .high-form-describe{
+    width: 99%;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+.high-impact-container2 .high-impact-form .high-form-para{
+    width: 85%;
+    margin: 0px auto 30px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.high-impact-container2 .high-impact-form .high-form-para .high-span1{
+    color: #2B65EC;
+    cursor: pointer;
+}
+.high-impact-container2 .high-impact-form .high-form-btn{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #2B65EC;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #2B65EC;
+}
+
+
+
+/* ############ */
+/* Talk Section */
+/* ############ */
+.main-talk-container{
+    width: 100%;
+}
+.main-talk-container .business-talk-container{
+    width: 85%;
+    padding: 150px 50px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.business-talk-container .talk-para1{
+    font-size: 3.5rem;
+    margin-bottom: 40px;
+}
+.business-talk-container .talk-para2{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.business-talk-container .talk-btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.business-talk-container .talk-btns p{
+    padding: 15px 25px;
+    border: 1px solid white;
+    margin: 0px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all0.2s ease-in;
+}
+.business-talk-container .talk-btns p:first-child{
+    background-color: #2B65EC;
+    border: none;
+}
+.business-talk-container .talk-btns p:first-child:hover{
+    text-decoration: underline;
+}
+.business-talk-container .talk-btns p:last-child:hover{
+    color: #2B65EC;
+    background-color: #fff;
+    text-decoration: underline;
+}
+.business-talk-container p:last-child{
+    color: #fff;
+    font-size: 13px;
+}
+.business-talk-container p:last-child span{
+    color: #2B65EC;
+    cursor: pointer;
+}
+
+
+
+/* ############### */
+/* Webinar Section */
+/* ############### */
+.main-webinar-container{
+    width: 100%;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+}
+.main-webinar-container .webinar-container1{
+    width: 30%;
+    margin: 10px;
+    padding: 50px 20px;
+    background-color: #151B54 !important;
+    background: url(../images/coursera.svg);
+    background-size: cover;
+    background-position: left;
+    background-clip: border-box;
+    border: 1px solid blue;
+    color: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.main-webinar-container .webinar-container1:hover .webinar-btn-container p{
+    text-decoration: underline;
+}
+.main-webinar-container .webinar-container1 .webinar-para1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.main-webinar-container .webinar-container1 .webinar-para2{
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+.main-webinar-container .webinar-container1 .webinar-btn-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.webinar-container1 .webinar-btn-container p{
+    font-size: 13px;
+    margin-right: 8px;
+}
+.webinar-container1 .webinar-btn-container i{
+    font-size: 13px;
+    margin-right: 10px;
+}
 
 
 
@@ -328,7 +820,26 @@
 
 
 
-
+    /* High Impact */
+    .main-high-impact-container{
+        width: 100%;
+        padding: 50px;
+    }
+    .main-high-impact-container .high-impact-container2 .high-impact-form .high-first-last{
+        width: 100%;
+        display: grid;
+        margin-bottom: 0px;
+    }
+    .high-impact-container2 .high-impact-form .high-first-last input{
+        width: 138% !important;
+        margin-bottom: 20px;
+    }
+    .high-impact-container2 .high-impact-form .high-form-country{
+        width: 77%;
+    }
+    .high-impact-container2 .high-impact-form .high-form-describe{
+        width: 77%;
+    }
 
 
 
@@ -343,15 +854,85 @@
 
 @media (max-width:900px){
     
+     /* curriculum section */
+     .main-university-curriculum-container{
+        width: 100%;
+        padding: 100px 30px;
+    }
+
+
+    /* High Impact */
+    .main-high-impact-container{
+        width: 100%;
+        display: grid;
+        padding: 50px 20px;
+    }
+    .main-high-impact-container .high-impact-container1{
+        width: 100%;
+    }
+    .main-high-impact-container .high-impact-container1 .business-high-para3{
+        display: none;
+    }
+    .main-high-impact-container .high-impact-container1 .business-high-para4{
+        display: none;
+    }
+    .high-impact-container1 .business-high-companies{
+        display: none;
+    }
+    .high-impact-container1 .impact-container{
+        display: none;
+    }
+    .main-high-impact-container .high-impact-container2{
+        width: 100%;
+    }
+    .main-high-impact-container .high-impact-container2 .high-impact-form .high-first-last{
+        width: 100%;
+        display: flex;
+        margin-bottom: 0px;
+    }
+    .high-impact-container2 .high-impact-form .high-first-last input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .high-impact-container2 .high-impact-form .high-form-country{
+        width: 100%;
+    }
+    .high-impact-container2 .high-impact-form .high-form-describe{
+        width: 100%;
+    }
+
+
+
+
 }
 
 
 @media (max-width:700px){
     
 
+    /* Webinar Section */
+    .main-webinar-container{
+        width: 100%;
+        display: grid;
+    }
+    .main-webinar-container .webinar-container1{
+        width: 100%;
+    }
 
 
-
+     /* curriculum section */
+     .main-university-curriculum-container{
+        width: 100%;
+        display: grid;
+        padding: 100px 30px;
+    }
+    .main-university-curriculum-container .university-curriculum1{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .main-university-curriculum-container .university-curriculum2{
+        width: 100%;
+    }
 
 
 
@@ -409,4 +990,111 @@
 
 @media (max-width:500px){
     
+
+    /* curriculum section */
+    .main-university-curriculum-container{
+        width: 100%;
+        display: grid;
+        padding: 100px 30px;
+    }
+    .main-university-curriculum-container .university-curriculum1{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .university-curriculum1 .curriculum-para1{
+        font-size: 2rem;
+    }
+    .main-university-curriculum-container .university-curriculum2{
+        width: 100%;
+        margin: 0px;
+    }
+    .university-curriculum2 .university-empower1{
+        width: 100%;
+        display: grid;
+    }
+    .university-curriculum2 .university-empower1 .empower1{
+        width: 100%;
+    }
+
+
+    /* High Impact Section */
+    .main-high-impact-container{
+        width: 100%;
+        display: grid;
+        padding: 50px 20px;
+    }
+    .main-high-impact-container .high-impact-container1{
+        width: 100%;
+    }
+    .main-high-impact-container .high-impact-container1 .business-high-para3{
+        display: none;
+    }
+    .main-high-impact-container .high-impact-container1 .business-high-para4{
+        display: none;
+    }
+    .high-impact-container1 .business-high-companies{
+        display: none;
+    }
+    .high-impact-container1 .impact-container{
+        display: none;
+    }
+    .main-high-impact-container .high-impact-container2{
+        width: 100%;
+    }
+    .main-high-impact-container .high-impact-container2 .high-impact-form{
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .main-high-impact-container .high-impact-container2 .high-impact-form .high-first-last{
+        /* width: 100%; */
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 0px;
+        margin-left: -6px;
+    }
+    .high-impact-container2 .high-impact-form .high-first-last input{
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    .high-impact-container2 .high-impact-form .high-form-country{
+        width: 100%;
+    }
+    .high-impact-container2 .high-impact-form .high-form-describe{
+        width: 100%;
+    }
+
+    /* ############ */
+    /* Talk Section */
+    /* ############ */
+    .main-talk-container{
+        width: 100%;
+    }
+    .main-talk-container .business-talk-container{
+        width: 95%;
+        padding: 150px 30px;
+    }
+    .business-talk-container .talk-para1{
+        font-size: 2.5rem;
+    }
+    .business-talk-container .talk-para2{
+        font-size: 20px;
+    }
+
+    /* Webinar Section */
+     .main-webinar-container{
+        width: 100%;
+        padding: 100px 20px;
+        display: grid;
+    }
+    .main-webinar-container .webinar-container1{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
 }
